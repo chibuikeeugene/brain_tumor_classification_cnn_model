@@ -1,0 +1,6 @@
+
+! ~/.local/bin/kaggle datasets download -d masoudnickparvar/brain-tumor-mri-dataset -p /Users/eugene/Personal_Projects/Real_ML_Project/brain_tumor_classification_cnn_model/braintumor_model_package/braintumor_model_package/datasets && \
+mkdir  /Users/eugene/Personal_Projects/Real_ML_Project/brain_tumor_classification_cnn_model/braintumor_model_package/braintumor_model_package/datasets/braintumor-data && \
+chmod +w /Users/eugene/Personal_Projects/Real_ML_Project/brain_tumor_classification_cnn_model/braintumor_model_package/braintumor_model_package/datasets/braintumor-data && \
+unzip /Users/eugene/Personal_Projects/Real_ML_Project/brain_tumor_classification_cnn_model/braintumor_model_package/braintumor_model_package/datasets/brain-tumor-mri-dataset.zip -d /Users/eugene/Personal_Projects/Real_ML_Project/brain_tumor_classification_cnn_model/braintumor_model_package/braintumor_model_package/datasets/braintumor-data && \
+rm -R /Users/eugene/Personal_Projects/Real_ML_Project/brain_tumor_classification_cnn_model/braintumor_model_package/braintumor_model_package/datasets/brain-tumor-mri-dataset.zip
