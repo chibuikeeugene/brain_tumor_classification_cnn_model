@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "braintumor-model-package"
 version = "0.1.0"
-description = ""
+description = "A brain tumor model package"
 authors = ["chibuikeeugene <chibuikeeugene@gmail.com>"]
 readme = "README.md"
 
