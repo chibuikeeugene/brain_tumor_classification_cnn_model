@@ -77,3 +77,7 @@ def make_bulk_prediction(*, images_data: Path) -> dict:
         image_classes = result_classes,
         version = __version__
     )
+
+
+# if __name__ == '__main__':
+#     make_single_img_prediction(folder= core.DUMMY_DATA, file=config.modelConfig.sample_test_image)
